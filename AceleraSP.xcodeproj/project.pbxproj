@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		254289881EDE2D2600F812D2 /* ObraAnotacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254289871EDE2D2600F812D2 /* ObraAnotacao.swift */; };
+		25F64C471EDDCBCA0044B1F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F64C461EDDCBCA0044B1F1 /* AppDelegate.swift */; };
+		25F64C491EDDCBCA0044B1F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F64C481EDDCBCA0044B1F1 /* ViewController.swift */; };
+		25F64C4C1EDDCBCA0044B1F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F64C4A1EDDCBCA0044B1F1 /* Main.storyboard */; };
+		25F64C4F1EDDCBCA0044B1F1 /* AceleraSP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25F64C4D1EDDCBCA0044B1F1 /* AceleraSP.xcdatamodeld */; };
+		25F64C511EDDCBCA0044B1F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F64C501EDDCBCA0044B1F1 /* Assets.xcassets */; };
+		25F64C541EDDCBCA0044B1F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F64C521EDDCBCA0044B1F1 /* LaunchScreen.storyboard */; };
+		25F64C5C1EDDCEFB0044B1F1 /* CoreDataAceleraSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F64C5B1EDDCEFB0044B1F1 /* CoreDataAceleraSP.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		254289871EDE2D2600F812D2 /* ObraAnotacao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObraAnotacao.swift; sourceTree = "<group>"; };
+		25F64C431EDDCBCA0044B1F1 /* AceleraSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AceleraSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F64C461EDDCBCA0044B1F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25F64C481EDDCBCA0044B1F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25F64C4B1EDDCBCA0044B1F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25F64C4E1EDDCBCA0044B1F1 /* AceleraSP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AceleraSP.xcdatamodel; sourceTree = "<group>"; };
+		25F64C501EDDCBCA0044B1F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25F64C531EDDCBCA0044B1F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25F64C551EDDCBCA0044B1F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F64C5B1EDDCEFB0044B1F1 /* CoreDataAceleraSP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataAceleraSP.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25F64C401EDDCBCA0044B1F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25F64C3A1EDDCBCA0044B1F1 = {
+			isa = PBXGroup;
+			children = (
+				25F64C451EDDCBCA0044B1F1 /* AceleraSP */,
+				25F64C441EDDCBCA0044B1F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25F64C441EDDCBCA0044B1F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25F64C431EDDCBCA0044B1F1 /* AceleraSP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25F64C451EDDCBCA0044B1F1 /* AceleraSP */ = {
+			isa = PBXGroup;
+			children = (
+				25F64C461EDDCBCA0044B1F1 /* AppDelegate.swift */,
+				25F64C481EDDCBCA0044B1F1 /* ViewController.swift */,
+				25F64C4A1EDDCBCA0044B1F1 /* Main.storyboard */,
+				25F64C501EDDCBCA0044B1F1 /* Assets.xcassets */,
+				25F64C521EDDCBCA0044B1F1 /* LaunchScreen.storyboard */,
+				25F64C551EDDCBCA0044B1F1 /* Info.plist */,
+				25F64C4D1EDDCBCA0044B1F1 /* AceleraSP.xcdatamodeld */,
+				25F64C5B1EDDCEFB0044B1F1 /* CoreDataAceleraSP.swift */,
+				254289871EDE2D2600F812D2 /* ObraAnotacao.swift */,
+			);
+			path = AceleraSP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25F64C421EDDCBCA0044B1F1 /* AceleraSP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F64C581EDDCBCA0044B1F1 /* Build configuration list for PBXNativeTarget "AceleraSP" */;
+			buildPhases = (
+				25F64C3F1EDDCBCA0044B1F1 /* Sources */,
+				25F64C401EDDCBCA0044B1F1 /* Frameworks */,
+				25F64C411EDDCBCA0044B1F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AceleraSP;
+			productName = AceleraSP;
+			productReference = 25F64C431EDDCBCA0044B1F1 /* AceleraSP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25F64C3B1EDDCBCA0044B1F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Luiz Fernando";
+				TargetAttributes = {
+					25F64C421EDDCBCA0044B1F1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3P64X872U8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 25F64C3E1EDDCBCA0044B1F1 /* Build configuration list for PBXProject "AceleraSP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25F64C3A1EDDCBCA0044B1F1;
+			productRefGroup = 25F64C441EDDCBCA0044B1F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25F64C421EDDCBCA0044B1F1 /* AceleraSP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25F64C411EDDCBCA0044B1F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F64C541EDDCBCA0044B1F1 /* LaunchScreen.storyboard in Resources */,
+				25F64C511EDDCBCA0044B1F1 /* Assets.xcassets in Resources */,
+				25F64C4C1EDDCBCA0044B1F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25F64C3F1EDDCBCA0044B1F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254289881EDE2D2600F812D2 /* ObraAnotacao.swift in Sources */,
+				25F64C4F1EDDCBCA0044B1F1 /* AceleraSP.xcdatamodeld in Sources */,
+				25F64C5C1EDDCEFB0044B1F1 /* CoreDataAceleraSP.swift in Sources */,
+				25F64C491EDDCBCA0044B1F1 /* ViewController.swift in Sources */,
+				25F64C471EDDCBCA0044B1F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25F64C4A1EDDCBCA0044B1F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F64C4B1EDDCBCA0044B1F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25F64C521EDDCBCA0044B1F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F64C531EDDCBCA0044B1F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25F64C561EDDCBCA0044B1F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25F64C571EDDCBCA0044B1F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25F64C591EDDCBCA0044B1F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3P64X872U8;
+				INFOPLIST_FILE = AceleraSP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cursoios.AceleraSP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		25F64C5A1EDDCBCA0044B1F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3P64X872U8;
+				INFOPLIST_FILE = AceleraSP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cursoios.AceleraSP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25F64C3E1EDDCBCA0044B1F1 /* Build configuration list for PBXProject "AceleraSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F64C561EDDCBCA0044B1F1 /* Debug */,
+				25F64C571EDDCBCA0044B1F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F64C581EDDCBCA0044B1F1 /* Build configuration list for PBXNativeTarget "AceleraSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F64C591EDDCBCA0044B1F1 /* Debug */,
+				25F64C5A1EDDCBCA0044B1F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		25F64C4D1EDDCBCA0044B1F1 /* AceleraSP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				25F64C4E1EDDCBCA0044B1F1 /* AceleraSP.xcdatamodel */,
+			);
+			currentVersion = 25F64C4E1EDDCBCA0044B1F1 /* AceleraSP.xcdatamodel */;
+			path = AceleraSP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 25F64C3B1EDDCBCA0044B1F1 /* Project object */;
+}
