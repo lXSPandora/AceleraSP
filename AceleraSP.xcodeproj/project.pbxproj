@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		254289881EDE2D2600F812D2 /* ObraAnotacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254289871EDE2D2600F812D2 /* ObraAnotacao.swift */; };
+		259F28E71EDF913B00E36190 /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259F28E61EDF913B00E36190 /* DetalhesViewController.swift */; };
 		25F64C471EDDCBCA0044B1F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F64C461EDDCBCA0044B1F1 /* AppDelegate.swift */; };
 		25F64C491EDDCBCA0044B1F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F64C481EDDCBCA0044B1F1 /* ViewController.swift */; };
 		25F64C4C1EDDCBCA0044B1F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F64C4A1EDDCBCA0044B1F1 /* Main.storyboard */; };
 		25F64C4F1EDDCBCA0044B1F1 /* AceleraSP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25F64C4D1EDDCBCA0044B1F1 /* AceleraSP.xcdatamodeld */; };
 		25F64C511EDDCBCA0044B1F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F64C501EDDCBCA0044B1F1 /* Assets.xcassets */; };
 		25F64C541EDDCBCA0044B1F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F64C521EDDCBCA0044B1F1 /* LaunchScreen.storyboard */; };
-		25F64C5C1EDDCEFB0044B1F1 /* CoreDataAceleraSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F64C5B1EDDCEFB0044B1F1 /* CoreDataAceleraSP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		254289871EDE2D2600F812D2 /* ObraAnotacao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObraAnotacao.swift; sourceTree = "<group>"; };
+		259F28E61EDF913B00E36190 /* DetalhesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
 		25F64C431EDDCBCA0044B1F1 /* AceleraSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AceleraSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25F64C461EDDCBCA0044B1F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25F64C481EDDCBCA0044B1F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,7 +26,6 @@
 		25F64C501EDDCBCA0044B1F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25F64C531EDDCBCA0044B1F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25F64C551EDDCBCA0044B1F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		25F64C5B1EDDCEFB0044B1F1 /* CoreDataAceleraSP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataAceleraSP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +65,7 @@
 				25F64C521EDDCBCA0044B1F1 /* LaunchScreen.storyboard */,
 				25F64C551EDDCBCA0044B1F1 /* Info.plist */,
 				25F64C4D1EDDCBCA0044B1F1 /* AceleraSP.xcdatamodeld */,
-				25F64C5B1EDDCEFB0044B1F1 /* CoreDataAceleraSP.swift */,
-				254289871EDE2D2600F812D2 /* ObraAnotacao.swift */,
+				259F28E61EDF913B00E36190 /* DetalhesViewController.swift */,
 			);
 			path = AceleraSP;
 			sourceTree = "<group>";
@@ -146,9 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				254289881EDE2D2600F812D2 /* ObraAnotacao.swift in Sources */,
+				259F28E71EDF913B00E36190 /* DetalhesViewController.swift in Sources */,
 				25F64C4F1EDDCBCA0044B1F1 /* AceleraSP.xcdatamodeld in Sources */,
-				25F64C5C1EDDCEFB0044B1F1 /* CoreDataAceleraSP.swift in Sources */,
 				25F64C491EDDCBCA0044B1F1 /* ViewController.swift in Sources */,
 				25F64C471EDDCBCA0044B1F1 /* AppDelegate.swift in Sources */,
 			);
